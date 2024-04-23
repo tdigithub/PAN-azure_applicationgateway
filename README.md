@@ -1,4 +1,7 @@
-# Using VM-Series Firewalls and the Azure Application Gateway to Secure Internet-Facing Web Workloads
+# This is not an official template, it is a cloned test environment, please do not use it !!!
+
+
+**Using VM-Series Firewalls and the Azure Application Gateway to Secure Internet-Facing Web Workloads**
 This ARM template deploys two VM-Series firewalls between a pair of Azure load balancers. The external load balancer is an Azure Application Gateway (a web load balancer) that also serves as the Internet facing gateway, which  receives traffic and distributes it to the VM-Series firewalls. The firewalls enforce security policies to protect your workloads, and send the allowed traffic to the internal load balancer which is an Azure Load Balancer (Layer 4) that load balances across a pair of sample Apache web servers. 
 
 
